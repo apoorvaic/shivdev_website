@@ -7,8 +7,8 @@ function Card(props){
                 <div className = "card" >
                     <img className = "card-img-top" src = {props.image} alt = "" />
                         <div className = "card body">
-                            <h5> {props.title} </h5>
-                            <p className = "card-text"> {props.desc} </p>
+                            <h6> {props.title} </h6>
+                            <p className = "card-text" style = {{textColor:"red"}}> {props.desc} </p>
                         </div>
                 </div>
             </div>

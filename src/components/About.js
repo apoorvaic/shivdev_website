@@ -27,16 +27,16 @@ class About extends React.Component{
     
     render(){
         return(
-            <div className = "container-fluid padding p-3 bg-light" style = {{marginTop:"90px",backgroundColor:"grey"}} >
+            <div className = "container-fluid padding p-3" style = {{marginTop:"90px",backgroundColor:"white"}} >
                 <div className = "row padding pt-4">
                     <div className = "col-4" >
                         <img className = "img-fluid img-thumbnail" src= {profilePic} alt="Dr Shivdev M" />
                         <div className= "col pt-4">
                           <h4> DR. SHIVADEV M </h4>
                     
-                          <p><small>  MBBS, MD, Fellow of the European Committe of Sexual Medicine (FECSM).</small></p>
+                          <p><h6>  MBBS, MD, Fellow of the European Committe of Sexual Medicine (FECSM).</h6></p>
 
-                          <p><small>  Passionate, Ethical, Empathetic, Performance driven, Trust-worthy.</small> </p>
+                          <p><h6>  Passionate, Ethical, Empathetic, Performance driven, Trust-worthy.</h6> </p>
                         </div>
                     </div>
                     <div className = "col">

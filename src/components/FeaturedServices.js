@@ -16,7 +16,7 @@ function FeaturedServices(){
             <div className = "conatiner-fluid padding">
                 <div className = "row welcome text-center">
                     <div className="col-12 padding">
-                        <h2> Featured Services</h2>
+                        <h3> Featured Services</h3>
                     </div>
         
                 </div>

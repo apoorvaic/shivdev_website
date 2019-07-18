@@ -22,9 +22,9 @@ class Header extends React.Component{
     render(){
        
         return(
-        <nav className = "navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <nav className = "navbar navbar-expand-md sticky-top">
             <div className = "container-fluid">
-                <Link className = "navbar-brand" to ="/">Dr. Shivdev M <br/> Psychatrist</Link>
+                <Link className = "navbar-brand"  to ="/">Dr. Shivdev M <br/> Psychatrist</Link>
                 <button className = "navbar-toggler" onClick = {this.handleToggle}>
                     <FaAlignRight className = "nav-icon" />
                 </button>
@@ -40,7 +40,7 @@ class Header extends React.Component{
                         <NavLink to ="/about/" activeStyle={{color: "grey"}}>About</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to ="" activeStyle={{color: "grey"}}>Contact</NavLink>
+                        <NavLink to ="/contact" activeStyle={{color: "grey"}}>Contact</NavLink>
                     </li>
                 
                 </ul>
